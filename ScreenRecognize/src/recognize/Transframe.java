@@ -47,6 +47,7 @@ public class Transframe extends JFrame {
             }
             g.drawRect(left, top, Math.abs(endX - startX), Math.abs(endY - startY));
         }
+
         if (analyzing) {
             g.setColor(Color.BLACK);
             for (int j = 1; j < clipWidth - 1; j++) {
@@ -68,13 +69,10 @@ public class Transframe extends JFrame {
                     g.drawLine(left + j, top + 1, left + j, top + clipHeight - 2);
                 }
             }
-        }
-        if (recording) {
+        } else if (recording) {
             new Recorder(this, g);
             recording = false;
-        }
-
-        if (recognizing) {
+        } else if (recognizing) {
             final int spaceWidth = 6;
             final int maxOffset = 3;
             if (recognize == null)
@@ -83,6 +81,8 @@ public class Transframe extends JFrame {
                 recognize = new Recognizer(this, g, spaceWidth, left, top, clipWidth, clipHeight, maxOffset, path, false);
             System.out.println("recognisedChars in transframe" + recognize.getRecognizedChars());
             recognizing = false;
+        } else {
+            System.out.println("Now thats weird");
         }
     }
 

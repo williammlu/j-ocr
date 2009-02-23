@@ -1,5 +1,7 @@
 package recognize;
 
+import static recognize.ScreenVariables.recognizing;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -183,6 +185,7 @@ public class Recognizer {
                 filteredChars += token;
             }
             if (fr != null) {
+                recognizing = false;
                 JOptionPane.showMessageDialog(fr, "     " + filteredChars,
                         "HAHAHA",
                         JOptionPane.INFORMATION_MESSAGE);
