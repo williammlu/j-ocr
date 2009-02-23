@@ -82,7 +82,7 @@ public class Transframe extends JFrame {
             System.out.println("recognisedChars in transframe" + recognize.getRecognizedChars());
             recognizing = false;
         } else {
-            System.out.println("Now thats weird");
+            System.out.println("doing nothing");
         }
     }
 
