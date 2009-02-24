@@ -265,6 +265,7 @@ public class Recognizer {
 
                 if (!bgPixelFound) {
                     if (fr != null) {
+                        recognizing = false;
                         JOptionPane.showMessageDialog(fr,
                                 "Could not find Background Pixel in the Rectangle",
                                 "Error", JOptionPane.INFORMATION_MESSAGE);
