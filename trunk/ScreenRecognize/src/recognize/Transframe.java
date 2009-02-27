@@ -70,7 +70,7 @@ public class Transframe extends JFrame {
                 }
             }
         } else if (recording) {
-            new Recorder(this, g);
+            new Recorder(this, g, new File(path));
             recording = false;
         } else if (recognizing) {
             final int spaceWidth = 6;
