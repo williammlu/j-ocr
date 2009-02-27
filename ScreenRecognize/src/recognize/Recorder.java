@@ -11,7 +11,11 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 class Recorder {
-    Recorder(Frame fr, Graphics g) {
+
+    private File file;
+
+    Recorder(Frame fr, Graphics g, File file) {
+        this.file = file;
         performRecording(fr, g);
     }
 
@@ -228,7 +232,7 @@ class Recorder {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    final JFileChooser fc = new JFileChooser();
+                    final JFileChooser fc = new JFileChooser(file);
                     fc.setFileFilter(new FileFilter() {
                         public boolean accept(File f) {
                             return f.getName().endsWith(".pix");
