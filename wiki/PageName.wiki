@@ -15,3 +15,5 @@ The method to create the fonts are very simple. The process of recognition is fa
 = Details =
 
 <wiki:video url="http://www.youtube.com/watch?v=7ZOw-RYg05I"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=dTs1W2q9Vsk"/>
