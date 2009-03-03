@@ -14,4 +14,4 @@ The method to create the fonts are very simple. The process of recognition is fa
 
 = Details =
 
-[<object width="480" height="385"><param name="movie" value="http://www.youtube.com/p/B9C0087BC803CAEF&amp;hl=en"></param><embed src="http://www.youtube.com/p/B9C0087BC803CAEF&amp;hl=en" type="application/x-shockwave-flash" width="480" height="385"></embed></object>]
+<wiki:video url="http://www.youtube.com/view_play_list?p=B9C0087BC803CAEF"/>
