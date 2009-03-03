@@ -1,0 +1,17 @@
+#Pure Java Based optical Character Recognition Software.
+
+= Introduction =
+
+
+
+This is a Optical Character Recognition software completely written in Java. Here we do not use predefined font database.
+
+The idea is very simple. With this tool one can create a knowledge repository specific to the requirement at hand, there by having to keep the only the fonts that are required.
+
+The method to create the fonts are very simple. The process of recognition is fast. Here we do not use any artificial intelligence concepts. All we do is a pixel by pixel comparison against the created knowledge. Very simple and fast.
+
+
+
+= Details =
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/p/B9C0087BC803CAEF&amp;hl=en"></param><embed src="http://www.youtube.com/p/B9C0087BC803CAEF&amp;hl=en" type="application/x-shockwave-flash" width="480" height="385"></embed></object>
