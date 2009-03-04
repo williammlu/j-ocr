@@ -11,6 +11,8 @@ The idea is very simple. With this tool one can create a knowledge repository sp
 
 The method to create the fonts are very simple. The process of recognition is fast. Here we do not use any artificial intelligence concepts. All we do is a pixel by pixel comparison against the created knowledge. Very simple and fast.
 
+Its also language independent.
+
 
 
 = Details =
